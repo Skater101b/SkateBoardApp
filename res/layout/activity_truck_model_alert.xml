@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.sk8.skateboardsetup.TruckChooser" >
+
+    <TextView
+        android:id="@+id/textViewtruck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey! Are you sure????" />
+
+    <Button
+        android:id="@+id/buttonpros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewtruck"
+        android:layout_below="@+id/textViewtruck"
+        android:layout_marginTop="39dp"
+        android:text="Yes" />
+
+    <Button
+        android:id="@+id/buttonneg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonpos"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@+id/buttonpos"
+        android:text="No" />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/trucklogo"
+    tools:context="com.sk8.skateboardsetup.TruckHome" >
+
+    <ImageButton
+        android:id="@+id/fury"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="98dp"
+        android:src="@drawable/furylogo" />
+
+    <ImageButton
+        android:id="@+id/orian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fury"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/fury"
+        android:src="@drawable/orianlogo" />
+
+    <ImageButton
+        android:id="@+id/tensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orian"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/orian"
+        android:src="@drawable/tensorlogo" />
+
+    <ImageButton
+        android:id="@+id/thunder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tensor"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@+id/tensor"
+        android:src="@drawable/thunderlogo" />
+
+    <ImageButton
+        android:id="@+id/independent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/thunder"
+        android:layout_below="@+id/thunder"
+        android:src="@drawable/independentklogo" />
+
+    
+    
+    
+    
+</RelativeLayout>

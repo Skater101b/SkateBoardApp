@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/storelogoooooooooooo"
+    tools:context="com.sk8.skateboardsetup.MainActivity" >
+    
+   
+
+    <RelativeLayout
+        android:id="@+id/welcomeScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+         
+         
+
+         <ImageButton
+             android:id="@+id/createyourownsetup"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/pro"
+             android:layout_alignParentTop="true"
+             android:layout_marginTop="88dp"
+             android:src="@drawable/homepagetweet" />
+
+         <ImageButton
+             android:id="@+id/pro"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/twitter"
+             android:layout_below="@+id/createyourownsetup"
+             android:src="@drawable/homepagepro" />
+         
+         <ImageButton
+             android:id="@+id/twitter"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_below="@+id/pro"
+             android:layout_centerVertical="true"
+             android:src="@drawable/homepagecreate" />
+
+    </RelativeLayout>
+
+   
+
+</RelativeLayout>

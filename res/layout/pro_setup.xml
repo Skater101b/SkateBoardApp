@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.sk8.skateboardsetup.ProSetupActivity" >
+
+  
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+
+       <RelativeLayout
+           android:layout_width="316dp"
+           android:layout_height="458dp" >
+
+            <Button
+                android:id="@+id/andrewReynolds"
+                style="@style/buttonOne"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/skater_list_button"
+                android:gravity="center_vertical"
+ 				android:layout_alignParentTop="true"
+                android:text="Andrew Reynolds" />
+            
+             <Button
+        		android:id="@+id/shawnMalto"
+       			style="@style/buttonOne"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:background="@drawable/skater_list_button"
+        		android:gravity="center_vertical"
+        		android:layout_below="@+id/andrewReynolds"
+        		android:text="Shawn Malto" />
+
+   			 <Button
+        		android:id="@+id/appleyard"
+        		style="@style/buttonOne"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/shawnMalto"
+        		android:background="@drawable/skater_list_button"
+        		android:gravity="center_vertical"
+        		android:text="Mark Appleyard" />
+   			 
+   			 
+   			  <Button
+        		android:id="@+id/nyjah"
+        		style="@style/buttonOne"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/appleyard"
+        		android:background="@drawable/skater_list_button"
+        		android:gravity="center_vertical"
+        		android:text="Nyjah Huston" />
+   			 
+   			 
+   			   <Button
+        		android:id="@+id/cole"
+        		style="@style/buttonOne"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/nyjah"
+        		android:background="@drawable/skater_list_button"
+        		android:gravity="center_vertical"
+        		android:text="Chris Cole" />
+   			   
+   			   <Button
+        		android:id="@+id/prod"
+        		style="@style/buttonOne"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/cole"
+        		android:background="@drawable/skater_list_button"
+        		android:gravity="center_vertical"
+        		android:text="P Rod" />
+   			   
+   			   <Button
+        		android:id="@+id/Sheckler"
+        		style="@style/buttonOne"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/prod"
+        		android:background="@drawable/skater_list_button"
+        		android:gravity="center_vertical"
+        		android:text="Ryan Sheckler" />
+   			   
+   			   <Button
+        		android:id="@+id/Mikey"
+        		style="@style/buttonOne"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/Sheckler"
+        		android:background="@drawable/skater_list_button"
+        		android:gravity="center_vertical"
+        		android:text="Mikey Taylor" />
+   			 
+   			 
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

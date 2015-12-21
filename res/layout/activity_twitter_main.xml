@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/storelogoooooooooooo"
+    tools:context="com.sk8.skateboardsetup.TwitterMain" >
+
+    <requestFocus />
+
+    <TextView android:id="@+id/textView1"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	
+    	android:layout_alignLeft="@+id/editTextTweet" />
+
+    <EditText
+        android:id="@+id/editTextTweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:textColorHint="#040404"
+        android:hint="tweet" />
+
+    <Button
+        android:id="@+id/tweetButton"
+        style="@style/buttonOne"
+        android:background="@drawable/skater_list_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTweet"
+        android:layout_toRightOf="@+id/textView1"
+        android:onClick="onTweetButtonClick"
+        android:text="tweet" />
+
+    <TextView
+        android:id="@+id/textViewCountChars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewTimeline"
+        android:layout_below="@+id/editTextTweet"
+        android:layout_toRightOf="@+id/timelineButton"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textViewTimeline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timelineButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:hint="User timeline will appear here"
+        android:textColorHint="#040404"
+        android:maxLines="100"
+        android:scrollbars="vertical" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTimeline"
+        android:layout_below="@+id/tweetButton"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:textColorHint="#040404"
+        android:hint="Type Username Here" />
+
+    <Button
+        android:id="@+id/timelineButton"
+        style="@style/buttonOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextTweet"
+        android:layout_below="@+id/editTextUsername"
+        android:background="@drawable/skater_list_button"
+        android:onClick="onTimelineButtonClick"
+        android:text="Timeline" />
+
+</RelativeLayout>

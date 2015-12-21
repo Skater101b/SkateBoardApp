@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/storelogoboard"
+    tools:context="com.sk8.skateboardsetup.SetupActivity" >
+
+    <ImageButton
+        android:id="@+id/baker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="98dp"
+        android:src="@drawable/bakerlogo" />
+
+    <ImageButton
+        android:id="@+id/habitat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/baker"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/baker"
+        android:src="@drawable/habitatlogo" />
+
+    <ImageButton
+        android:id="@+id/flip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/habitat"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/habitat"
+        android:src="@drawable/fliplogo" />
+
+    <ImageButton
+        android:id="@+id/element"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/flip"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@+id/flip"
+        android:src="@drawable/element" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/flip"
+        android:layout_below="@+id/flip"
+        android:src="@drawable/girllogo" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:src="@drawable/zooyorklogo" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/habitat"
+        android:layout_below="@+id/imageButton1"
+        android:src="@drawable/chocologo" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/zerologo" />
+    
+     <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:contentDescription="Whatever_I_Say_I_am_zoomed_in" />
+
+</RelativeLayout>

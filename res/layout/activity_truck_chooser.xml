@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/boardselecter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+
+     <LinearLayout
+        android:id="@+id/selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+     
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+              
+
+                <ImageButton
+                    android:id="@+id/imageButton111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fury1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton211"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fury2" />
+
+                <ImageButton
+                    android:id="@+id/imageButton311"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fury3" />
+                
+                <ImageButton
+                    android:id="@+id/imageButton411"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fury4" />
+                
+                <ImageButton
+                    android:id="@+id/imageButton511"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fury5" />
+                
+                
+		<ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:contentDescription="Whatever_I_Say_I_am_zoomed_in" />
+               
+
+            </LinearLayout>
+        </HorizontalScrollView>
+        
+      
+        
+    </LinearLayout>
+
+</FrameLayout>

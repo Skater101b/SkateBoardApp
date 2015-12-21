@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id">905100066177854</string>
+    <string name="worked">Success</string>
+    <string name="failed">failure</string>
+    <string name="app_name">SkateboardSetup</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_setup">MainActivity</string>
+    <string name="title_activity_pro_setup">MainActivity</string>
+    <string name="title_activity_action_view">MainActivity</string>
+    <string name="title_activity_board_choose">MainActivity</string>
+    <string name="title_activity_grip_main">GripActivity</string>
+    <string name="title_activity_boardalert_main">MainActivity</string>
+    <string name="Board_Alert">Are you sure you want this board?</string>
+    <string name="board_alert_title">Are you sure?</string>
+    <string name="board_alert_button1">Heck Yeah!</string>
+    <string name="board_alert_button2">No Way!</string>
+    <string name="title_activity_model_alert">ModelAlert</string>
+    <string name="title_activity_wheel_co_alert">WheelCoAlert</string>
+    <string name="title_activity_wheel_chooser">WheelChooser</string>
+    <string name="title_activity_wheel_model_aert">WheelModelAert</string>
+    <string name="title_activity_truck_home">TruckHome</string>
+    <string name="title_activity_truck_alert">TruckAlert</string>
+    <string name="title_activity_truck_chooser">TruckChooser</string>
+    <string name="title_activity_truck_model_alert">TruckModelAlert</string>
+    <string name="title_activity_testing_the_trucks">TestingTheTrucks</string>
+    <string name="title_activity_grip_setup">Grip_setup</string>
+    <string name="title_activity_grip_chooser">GripChooser</string>
+    <string name="title_activity_grip_alert">GripAlert</string>
+    <string name="title_activity_grip_type_alert">GripTypeAlert</string>
+    <string name="title_activity_twitter_main">TwitterMain</string>
+    <string name="title_activity_maps_main">MapsMain</string>
+    <string name="title_activity_board_finish_list">BoardFinishList</string>
+    <string name="title_activity_checkin">Checkin</string>
+    <string name="title_activity_altboardsetup">Altboardsetup</string>
+    <string name="title_activity_altboardsetup_one">AltboardsetupOne</string>
+
+</resources>

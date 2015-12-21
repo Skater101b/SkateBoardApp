@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sk8.skateboardsetup"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TestingTheTrucks"
+            android:label="@string/title_activity_testing_the_trucks" >
+
+            <!-- android:label="@string/app_name" > -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetupActivity"
+            android:label="@string/title_activity_setup" >
+        </activity>
+        <activity
+            android:name=".ProSetupActivity"
+            android:label="@string/title_activity_pro_setup" >
+        </activity>
+        <activity
+            android:name=".ActionViewActivity"
+            android:label="@string/title_activity_action_view" >
+        </activity>
+        <activity
+            android:name=".BoardChooseActivity"
+            android:label="@string/title_activity_board_choose" >
+        </activity>
+        <activity
+            android:name=".WheelMainActivity"
+            android:label="@string/title_activity_grip_main" >
+        </activity>
+        <activity
+            android:name=".BoardalertMainActivity"
+            android:label="@string/title_activity_boardalert_main" >
+        </activity>
+        <activity
+            android:name=".ModelAlert"
+            android:label="@string/title_activity_model_alert" >
+        </activity>
+        <activity
+            android:name=".WheelCoAlert"
+            android:label="@string/title_activity_wheel_co_alert" >
+        </activity>
+        <activity
+            android:name=".WheelChooser"
+            android:label="@string/title_activity_wheel_chooser" >
+        </activity>
+        <activity
+            android:name=".WheelModelAert"
+            android:label="@string/title_activity_wheel_model_aert" >
+        </activity>
+        <activity
+            android:name=".TruckHome"
+            android:label="@string/title_activity_truck_home" >
+        </activity>
+        <activity
+            android:name=".TruckAlert"
+            android:label="@string/title_activity_truck_alert" >
+        </activity>
+        <activity
+            android:name=".TruckChooser"
+            android:label="@string/title_activity_truck_chooser" >
+        </activity>
+        <activity
+            android:name=".TruckModelAlert"
+            android:label="@string/title_activity_truck_model_alert" >
+        </activity>
+        <!--
+        <activity
+            android:name=".TestingTheTrucks"
+            android:label="@string/title_activity_testing_the_trucks" >
+        </activity>
+        -->
+        <activity
+            android:name=".Gripsetup"
+            android:label="@string/title_activity_grip_setup" >
+        </activity>
+        <activity
+            android:name=".GripChooser"
+            android:label="@string/title_activity_grip_chooser" >
+        </activity>
+        <activity
+            android:name=".GripAlert"
+            android:label="@string/title_activity_grip_alert" >
+        </activity>
+        <activity
+            android:name=".GripTypeAlert"
+            android:label="@string/title_activity_grip_type_alert" >
+        </activity>
+        <activity
+            android:name=".TwitterMain"
+            android:label="@string/title_activity_twitter_main" >
+        </activity>
+        <activity
+            android:name=".MapsMain"
+            android:label="@string/title_activity_maps_main" >
+        </activity>
+        <activity
+            android:name=".BoardFinishList"
+            android:label="@string/title_activity_board_finish_list" >
+        </activity>
+        <activity
+            android:name=".Checkin"
+            android:label="@string/title_activity_checkin" >
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".Altboardsetup"
+            android:label="@string/title_activity_altboardsetup" >
+        </activity>
+        <activity
+            android:name=".AltboardsetupOne"
+            android:label="@string/title_activity_altboardsetup_one" >
+        </activity>
+    </application>
+
+</manifest>
